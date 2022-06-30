@@ -1,0 +1,32 @@
+.left480 {
+
+    margin: 23px 0px 23px 45px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lefticons img {
+    margin-right: 14px;
+    width: 18px;
+    height: 18px;
+}
+
+.autors {
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+}
+
+.rights {
+    color: #888888
+}
+
+@media screen and (max-width: 480px) {
+    .left480 {
+        margin: 23px 0px 23px 15px;
+    }
+
+}

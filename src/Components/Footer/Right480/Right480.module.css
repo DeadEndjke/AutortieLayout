@@ -1,0 +1,22 @@
+.right480 {
+    margin: 23px 45px 23px 0px;
+}
+
+.right480 ul li a {
+    color: white;
+}
+
+.right480 ul li {
+    margin-bottom: 10px;
+    text-align: end;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+}
+
+@media screen and (max-width: 480px) {
+    .right480 {
+        margin: 23px 15px 23px 0px;
+    }
+
+}

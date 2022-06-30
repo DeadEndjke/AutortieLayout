@@ -1,0 +1,271 @@
+.communitycard {
+    width: 500px;
+    height: 568px;
+    border-radius: 10px;
+    background-color: #FEFEFF;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.communitycardcontainer {
+    width: 450px;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.hashtags {
+
+    padding-top: 21px;
+    margin-bottom: 27px;
+}
+
+
+.yellow {
+
+    font-weight: 900;
+    font-size: 11px;
+    line-height: 12.89px;
+    text-transform: uppercase;
+    text-align: Center;
+    padding: 8px 15px;
+    color: #BC9300;
+
+    background-color: #FDFFE7;
+    width: 157px;
+    height: 31px;
+    border-radius: 75px;
+}
+
+.green {
+    font-weight: 900;
+    font-size: 11px;
+    line-height: 12.89px;
+    text-transform: uppercase;
+    text-align: Center;
+    padding: 8px 15px;
+    color: #00A880;
+
+    background-color: #EBFFFA;
+    width: 157px;
+    height: 31px;
+    border-radius: 75px;
+}
+
+.paragraphcontent {
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18.9px;
+    color: #2F2F2F;
+    margin-bottom: 27px;
+}
+
+.paragraphcontentvivble {
+    display: none;
+}
+
+.comment {
+
+    color: #505050;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+
+.commenttext {
+
+    color: #2F2F2F;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.52px;
+    margin-bottom: 27px;
+}
+
+.award {
+    margin-bottom: 64px;
+}
+
+.price {
+    margin-left: 11px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    position: relative;
+    bottom: 3px;
+    color: #2F2F2F;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: 15fr 1fr;
+    margin-bottom: 15px;
+
+
+}
+
+.key {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #2F2F2F;
+    padding: 9px 15px;
+
+    background-color: #f3f3f3;
+    border-radius: 75px;
+    width: auto;
+    margin-right: 15px;
+
+}
+
+.scientist {
+    padding-top: 16px;
+    padding-bottom: 12px;
+    border-top: 1px solid #CADCF8;
+    border-bottom: 1px solid #CADCF8;
+    margin-bottom: 13px;
+}
+
+.avatar {
+    border-radius: 50%;
+    float: left;
+    margin-right: 11px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #2F2F2F;
+    margin-top: 7px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #2F2F2F;
+    margin: 4px 0px;
+}
+
+.btn {
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17.58px;
+
+    padding: 11px 37px;
+    background-color: #3A85F4;
+    border-radius: 123px;
+    float: left;
+}
+
+.nextbtn {
+    border-radius: 50%;
+    padding: 11px 13px 9px 17px;
+    float: right;
+    margin-right: 0px;
+}
+
+
+@media screen and (max-width:1024px) {
+
+    .communitycard {
+        width: 376px;
+        height: 465px;
+    }
+
+    .communitycardcontainer {
+        width: 327px;
+    }
+
+    .yellow,
+    .green {
+        font-size: 9px;
+        line-height: 10.55px;
+    }
+
+    .paragraphcontent {
+        display: none;
+    }
+
+    .paragraphcontentvivble {
+        display: block;
+        font-size: 16px;
+        line-height: 16.8px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .comment {
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 4px;
+    }
+
+    .commenttext {
+        font-size: 12px;
+        line-height: 14.16px;
+        margin-bottom: 9px;
+    }
+
+    .award {
+        margin-bottom: 24px;
+    }
+
+    .price {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .keys {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .name {
+        font-size: 14px;
+        line-height: 16.41px;
+        margin-bottom: 2px;
+    }
+
+    .description {
+        font-size: 12px;
+        line-height: 14.06px;
+    }
+
+    .btn {
+        font-size: 12px;
+        line-height: 14.06px;
+        margin-right: 5px;
+        padding: 9px 27px;
+    }
+
+    .nextbtn {
+        padding: 9px 11px 7px 15px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .communitycard {
+        width: 329px;
+        height: 465px;
+    }
+
+    .communitycardcontainer {
+        width: 299px;
+    }
+
+    .price {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .btn {
+        font-size: 10px;
+        margin-right: 0px;
+    }
+}

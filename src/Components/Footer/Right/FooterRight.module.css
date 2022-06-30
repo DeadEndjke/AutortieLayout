@@ -1,0 +1,21 @@
+.footerright {
+    display: flex;
+}
+
+.footerright img:not(:last-child) {
+    margin-right: 29px;
+}
+
+@media screen and (max-width:1024px) {
+    .footerright {
+
+        margin: 0 auto;
+    }
+
+    .footerright img {
+        margin-top: 14px;
+        width: 18px;
+        height: 18px;
+    }
+
+}

@@ -1,0 +1,61 @@
+form {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.registerlogin {
+    padding-top: 40px;
+
+}
+
+.formgroup {}
+
+.loginbtn,
+.registrationbtn {
+    width: 177px;
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid #DFDFDF;
+    color: #DFDFDF;
+    border-radius: 0px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+button[type='active'] {
+    width: 177px;
+    margin: 0;
+    color: black;
+    border: none;
+    border-bottom: 3px solid #2C80FF;
+    border-radius: 0px;
+}
+
+
+.submit {
+    text-align: center;
+}
+
+input[type='submit'] {
+    background-color: #2C80FF;
+    color: white;
+    border: none;
+    padding: 14px 57px;
+    border-radius: 123px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.forgotpassword {
+    text-align: end;
+    margin-bottom: 40px;
+}
+
+.forgotpassword a {
+    color: #2C80FF;
+
+}
+
+
+.logininner {}

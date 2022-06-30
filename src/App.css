@@ -1,0 +1,11 @@
+.App {
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.38);
+}
+
+@media screen and (max-width:360px) {
+    .App {
+        width: 360px;
+    }
+
+}

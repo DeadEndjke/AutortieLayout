@@ -1,0 +1,29 @@
+.block {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), #CCE7FF);
+}
+
+.blockcontainer {
+    max-width: 1510px;
+    margin: 0 auto;
+}
+
+.scientists {
+    background-image: url("C:\VSProjects\science-layout\src\assets\scientists.png");
+    background-position: right 0px bottom 0px;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    min-height: 600px
+}
+
+.blockitems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 45px;
+}
+
+@media screen and (max-height:740px) {
+    .scientists {
+        min-height: calc(100vh - 111px);
+    }
+}

@@ -1,0 +1,94 @@
+.right {
+    display: flex;
+
+}
+
+
+button {
+    margin-right: 29px;
+    border: 1px solid #3A85F4;
+    border-radius: 123px;
+    padding: 12px 33px 10px 34px;
+    background-color: white;
+    color: #3A85F4;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.title2 {
+    display: none;
+}
+
+.right img {
+    width: 25px;
+    height: 25px;
+
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.right img:not(:last-child) {
+    margin-right: 29px;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    .burger {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:766px) {
+
+
+
+    .right img:not(:last-child),
+    button {
+        margin-right: 10px;
+    }
+
+    button {
+        padding: 9px 11px;
+    }
+
+
+}
+
+@media screen and (max-width:480px) {
+
+    .planet,
+    .enter {
+        display: none;
+    }
+
+    button {
+        font-size: 12px;
+        font-weight: 400;
+        margin-right: 25px;
+        padding: 6px 7px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+
+    .title1 {
+        display: none;
+
+    }
+
+    .title2 {
+        display: inline;
+    }
+
+    button {
+        padding: 9px 19px 7px 19px;
+    }
+
+}
