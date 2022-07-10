@@ -3,16 +3,17 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  /* outline: solid red; */
+
 }
 
 body {
+
   margin: 0;
   min-height: 100vh;
   background-color: #fff;
   max-width: 100%;
   overflow-x: hidden;
-  /* background-color: #575756; */
+
 }
 
 a {
@@ -23,17 +24,8 @@ a {
 input#email,
 input#password {
   border: none;
-  width: 354px;
   height: 45px;
   background-color: #F2F7FF;
   border-bottom: 5px solid #E9F1FF;
 
-}
-
-input#email {
-  margin-bottom: 50px;
-}
-
-input#password {
-  margin-bottom: 17px;
 }

@@ -24,10 +24,15 @@
     line-height: 17.36px;
 }
 
-.leftblock button {
+.enterbutton {
     margin-top: 33px;
     background-color: #3A85F4;
     color: white;
+    border-radius: 123px;
+    padding: 15px 44px;
+    text-transform: uppercase;
+    font-weight: 700;
+
 }
 
 @media screen and (max-width:1366px) {

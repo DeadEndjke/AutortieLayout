@@ -1,0 +1,39 @@
+.formgroup,
+.forgotpassword {
+    margin-bottom: 30px
+}
+
+.submit {
+    align-items: center;
+
+}
+
+input {
+    width: 354px;
+    height: 45px;
+    border: none;
+    background-color: #F2F7FF;
+    border-bottom: 5px solid #E9F1FF;
+}
+
+.submit {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+input[type='submit'] {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 13px 57px;
+    border: none;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    width: 244px;
+    color: #FFFFFF;
+    background: #2C80FF;
+    border-radius: 123px;
+
+}

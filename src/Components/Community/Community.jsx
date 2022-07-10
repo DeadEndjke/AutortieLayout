@@ -35,7 +35,6 @@ const Community = () => {
                     <CommunityCard />
                     <CommunityCard />
                     <CommunityCard />
-
                 </div>
 
                 <button className={a.lastbtn}>смотреть все</button>

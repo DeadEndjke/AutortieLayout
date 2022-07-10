@@ -1,6 +1,10 @@
 .App {
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.38);
+
+}
+
+.main {
+    position: absolute;
 }
 
 @media screen and (max-width:360px) {

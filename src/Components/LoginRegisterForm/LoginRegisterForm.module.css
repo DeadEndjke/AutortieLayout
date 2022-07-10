@@ -1,0 +1,77 @@
+.loginregisterform {}
+
+.loginform,
+.registerform {
+    padding: 10px;
+    border: 1px solid #2C80FF;
+    max-width: 434px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.topbuttons {
+
+    width: 354px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 110.9%;
+    border-radius: 0px;
+}
+
+button {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #DFDFDF;
+    border: none;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    font-size: 16px;
+    line-height: 17.74px;
+    background-color: white;
+    border-bottom: 1px solid #DFDFDF;
+    cursor: pointer;
+    padding: 13px 0;
+    border-radius: 0px;
+
+}
+
+button[type='active'] {
+    color: black;
+    border-bottom: 5px solid #2C80FF;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22.18px;
+
+}
+
+
+.quitbutton {
+    float: right;
+    text-align: right;
+    text-align: center;
+    padding-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+    border: 1px solid #2C80FF;
+}
+
+.welcome {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.welcome img {
+    margin-bottom: 20px;
+}

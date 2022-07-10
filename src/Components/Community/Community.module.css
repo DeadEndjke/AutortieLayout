@@ -53,6 +53,22 @@
     padding: 0px 10px;
 }
 
+.lastbtn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 15px 64px;
+    border: 2px solid #3A85F4;
+    border-radius: 123px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #3A85F4;
+}
+
 @media screen and (max-width:1517px) {
     .communitycontainer {
         max-width: 1033px;

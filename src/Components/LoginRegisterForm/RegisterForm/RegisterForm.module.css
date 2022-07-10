@@ -1,0 +1,24 @@
+.formgroup,
+.policyprival {
+    margin-bottom: 30px
+}
+
+
+
+form {
+    width: 354px;
+    margin: 0 auto;
+}
+
+input[type='checkbox'] {
+    width: 13px;
+    height: 13px;
+    margin-left: 0;
+}
+
+.checkboxtext {}
+
+.submit {
+    text-align: center;
+    padding-bottom: 40px;
+}

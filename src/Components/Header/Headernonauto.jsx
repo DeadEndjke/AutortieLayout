@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import LoginRegisterForm from '../LoginRegisterForm/LoginRegisterForm';
 import a from './Header.module.css'
 import Left from './Left/Left'
 import RightAuto from './Right/RightAuto';
@@ -6,18 +6,16 @@ import RightDefault from './Right/RightDefault';
 
 
 
-const Header = ({ isloged }) => {
-
+const Headernonauto = () => {
     return (
 
         <div className={a.headercontainer}>
             <div className={a.header}>
-                <Left />
-                {isloged ? <RightAuto right={isloged} /> : <RightDefault right={isloged} />}
+                headernonauto
             </div>
 
         </div>
     );
 }
 
-export default Header;
+export default Headernonauto;
